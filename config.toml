@@ -1,14 +1,23 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
+cli-source = "j-hc/revanced-cli"
+patches-source = "revanced/revanced-patches"
+patches-version = "latest"
+cli-version = "latest"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
 
-[com.spotify.music]
+[Spotify: Music and Podcasts]
+build-mode = "module"
+excluded-patches = "Custom theme"
+included-patches = ""
+version = "auto"
+arch = "arm64-v8a
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
-arch = "arm64-v8a"
+excluded-patches = ""
 build-mode = "module"
 
 
