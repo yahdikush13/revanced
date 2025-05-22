@@ -16,7 +16,7 @@ excluded-patches = "Custom theme"
 version = "auto"
 arch = "arm64-v8a"
 uptodown-dlurl = "https://spotify.id.uptodown.com/android"
-build-mode = "module"
+
 
 
 [YouTube]
