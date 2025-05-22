@@ -10,14 +10,12 @@ cli-version = "latest"
 
 # you can use rvmm-config-gen to generate a config
 
-[Spotify: Music and Podcasts]
+[Spotify]
 build-mode = "module"
 excluded-patches = "Custom theme"
-included-patches = ""
 version = "auto"
-arch = "arm64-v8a
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts"
-excluded-patches = ""
+arch = "arm64-v8a"
+uptodown-dlurl = "https://spotify.id.uptodown.com/android"
 build-mode = "module"
 
 
